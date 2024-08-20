@@ -1,0 +1,7 @@
+# Ignore specific directories in your project structure
+.venv/
+
+# Ignore all files with a certain extension
+*.safetensors
+*.pth
+*.csv
