@@ -1,40 +1,39 @@
 {
-  "add_prefix_space": false,
   "added_tokens_decoder": {
     "0": {
-      "content": "<s>",
+      "content": "<pad>",
       "lstrip": false,
-      "normalized": true,
+      "normalized": false,
       "rstrip": false,
       "single_word": false,
       "special": true
     },
     "1": {
-      "content": "<pad>",
+      "content": "<unk>",
       "lstrip": false,
-      "normalized": true,
+      "normalized": false,
       "rstrip": false,
       "single_word": false,
       "special": true
     },
     "2": {
-      "content": "</s>",
+      "content": "[CLS]",
       "lstrip": false,
-      "normalized": true,
+      "normalized": false,
       "rstrip": false,
       "single_word": false,
       "special": true
     },
     "3": {
-      "content": "<unk>",
+      "content": "[SEP]",
       "lstrip": false,
-      "normalized": true,
+      "normalized": false,
       "rstrip": false,
       "single_word": false,
       "special": true
     },
-    "50264": {
-      "content": "<mask>",
+    "4": {
+      "content": "[MASK]",
       "lstrip": true,
       "normalized": false,
       "rstrip": false,
@@ -42,15 +41,18 @@
       "special": true
     }
   },
-  "bos_token": "<s>",
+  "bos_token": "[CLS]",
   "clean_up_tokenization_spaces": true,
-  "cls_token": "<s>",
-  "eos_token": "</s>",
-  "errors": "replace",
-  "mask_token": "<mask>",
+  "cls_token": "[CLS]",
+  "do_lower_case": true,
+  "eos_token": "[SEP]",
+  "keep_accents": false,
+  "mask_token": "[MASK]",
   "model_max_length": 512,
   "pad_token": "<pad>",
-  "sep_token": "</s>",
-  "tokenizer_class": "RobertaTokenizer",
+  "remove_space": true,
+  "sep_token": "[SEP]",
+  "sp_model_kwargs": {},
+  "tokenizer_class": "AlbertTokenizer",
   "unk_token": "<unk>"
 }
