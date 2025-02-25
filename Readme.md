@@ -118,6 +118,3 @@ Future work could focus on:
 - Alexandre Crivellari
 - Andrea Muscio
 
-## Repository Link
-
-GitHub: [https://github.com/alexcri90/NLP_SarcasmDetector_Bicocca](https://github.com/alexcri90/NLP_SarcasmDetector_Bicocca)
